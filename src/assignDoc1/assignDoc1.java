@@ -21,8 +21,8 @@ public class assignDoc1 {
         }
     }
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:/Users/배성환/Desktop/aa.txt"));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/배성환/Desktop/bb.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("3nplus1.inp"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("3nplus1.out"));
 
         String line;
         while((line = br.readLine()) != null){

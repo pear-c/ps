@@ -2,22 +2,22 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int count = 0;
+//    static int count = 0;
 
-    public static void Algo(int n){
-        if(n == 1){
-            count++;
-            return;
-        }
-        else if(n % 2 == 1){
-            count++;
-            Algo(3*n+1);
-        }
-        else{
-            count++;
-            Algo(n/2);
-        }
-    }
+//    public static void Algo(int n){
+//        if(n == 1){
+//            count++;
+//            return;
+//        }
+//        else if(n % 2 == 1){
+//            count++;
+//            Algo(3*n+1);
+//        }
+//        else{
+//            count++;
+//            Algo(n/2);
+//        }
+//    }
 
     public static void main(String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new FileReader("C:/Users/배성환/Desktop/aa.txt"));
