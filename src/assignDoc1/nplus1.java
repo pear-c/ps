@@ -3,7 +3,7 @@ package assignDoc1;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class assignDoc1 {
+public class nplus1 {
     static int count = 0;
 
     public static void Algo(int n){
@@ -22,7 +22,7 @@ public class assignDoc1 {
     }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("3nplus1.inp"));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("3nplus1.out"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/배성환/Desktop/bb.txt"));
 
         String line;
         while((line = br.readLine()) != null){
